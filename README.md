@@ -36,6 +36,13 @@ In this project,I build a mini HoenyNet in Azure and ingest log sources from a m
 
 -Analysis after implementing remediation measures: An additional 24-hour period was dedicated to the meticulous re-observation of the environment, facilitating a comprehensive evaluation of the security metrics. The resulting data was then meticulously juxtaposed with the initial baseline, enabling a rigorous comparative analysis.
 
+<h2>Metrics that will be displayed</h2>
+
+- <b>SecurityEvent (Windows Event Logs)</b>
+- <b>Syslog (Linux Event Logs)</b>
+- <b>SecurityAlert (Log Analytics Alerts Triggered)</b>
+- <b>SecurityIncident (Incidents created by Sentinel)</b>
+- <b>AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)</b>
 
 <h2>Program walk-through:</h2>
 
