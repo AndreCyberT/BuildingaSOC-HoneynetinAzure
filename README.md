@@ -16,6 +16,14 @@ In this project,I build a mini HoenyNet in Azure and ingest log sources from a m
 - <b>NIST SP 800-53 Revision 4 (Security Controls) </b>
 - <b>NIST SP 800-53 Revision 2 (Incident Handling Guidance) </b>
 
+ <h2>Enviroments Used </h2>
+
+
+- <b>2x Windows 10 Pro</b> (21H2)
+- <b>Linux Server</b>
+- <b>Log Analytics Workspace (Kusto Query Lanuage KQL Queries)</b>
+- <b>Azure Virtual Network (VNet)</b>
+
  <h2>Course of Action</h2>
   
 -Establishing the honeynet: To start, I created the vulnerable environment with the Virtual Machines. This was done by disabling the firewall inside of the VM as well as allowing all ports and traffic to be received by the Network Security Group (NSG).
@@ -28,12 +36,6 @@ In this project,I build a mini HoenyNet in Azure and ingest log sources from a m
 
 -Analysis after implementing remediation measures: An additional 24-hour period was dedicated to the meticulous re-observation of the environment, facilitating a comprehensive evaluation of the security metrics. The resulting data was then meticulously juxtaposed with the initial baseline, enabling a rigorous comparative analysis.
 
-<h2>Enviroments Used </h2>
-
-- <b>2x Windows 10 Pro</b> (21H2)
-- <b>Linux Server</b>
-- <b>Log Analytics Workspace (Kusto Query Lanuage KQL Queries) </b>
-- <b>Azure Virtual Network (VNet) </b>
 
 <h2>Program walk-through:</h2>
 
