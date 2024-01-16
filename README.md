@@ -58,7 +58,7 @@ In this project,I build a mini HoenyNet in Azure and ingest log sources from a m
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Visual below provides an overview of the assault endeavors targeted at a publicly accessible Microsoft SQL server throughout a span of 24 hours. The plotted data points on the map delineate the precise origins of these attacks or attempted logins.: <br/>
+The visual below provides an overview of the assault endeavors targeted at a publicly accessible Microsoft SQL server throughout a span of 24 hours. The plotted data points on the map delineate the precise origins of these attacks or attempted logins.: <br/>
 <img width="766" alt="Installing Domain" src="https://i.imgur.com/Uk94HeI.png">
 
 <p align="center">
@@ -68,3 +68,7 @@ The visual attack map clearly illustrates numerous syslog authentication failure
 <p align="center">
 The displayed attack map captures a variety of failures in RDP (Remote Desktop Protocol) and SMB (Server Message Block), vividly showcasing the persistent efforts of potential attackers to exploit these particular protocols. The visual representation emphasizes the crucial need to strengthen remote access and file-sharing services as a way to protect against unauthorized entry and mitigate potential cyber threats. <br/>
 <img width="774" alt="Running users" src="https://i.imgur.com/0xyd96w.png">
+
+<p align="center">
+The depicted attack map compellingly exhibits the consequences arising from the decision to leave the Network Security Group (NSG) unrestricted, allowing unrestricted entry of malicious network traffic. This visualization strongly underscores the importance of implementing robust security protocols, including the enforcement of strict NSG rules, to prevent unauthorized access and mitigate the inherent risks associated with potential threats. <br/>
+<img width="774" alt="Running users" src="https://i.imgur.com/gyC1HTU.png">
