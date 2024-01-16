@@ -44,16 +44,27 @@ In this project,I build a mini HoenyNet in Azure and ingest log sources from a m
 - <b>SecurityIncident (Incidents created by Sentinel)</b>
 - <b>AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)</b>
 
+<h2> Design Before Hardening/Security Controls </h2>
+ 
+ In the "BEFORE" phase, it was observed that all resources were initially provisioned with direct internet exposure. The Virtual Machines were configured with open Network Security Groups and permissive built-in firewalls, while other resources were deployed with publicly accessible endpoints, thereby rendering the usage of Private Endpoints unnecessary: <br/>
+ <img width="767" alt="BEFORE measurement phase, it was observed that all resources were initially provisioned with direct internet exposure" src="https://i.imgur.com/jOEQdTU.gif">
+
+ <h2> Design After Hardening/Security Controls </h2>
+
+ In the "AFTER" stage, the Network Security Groups underwent fortification measures whereby all traffic, with the exception of my administrative workstation, was comprehensively blocked. Additionally, other resources were fortified by leveraging their built-in firewalls alongside the implementation of Private Endpoint functionality: <br/>
+  <img width="768" alt="BEFORE measurement phase, it was observed that all resources were initially provisioned with direct internet exposure" src="https://i.imgur.com/tRm4lyo.png">
+
+
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img width="766" alt="Installing Domain" src="https://github.com/AndreCyberT/ActiveDirectorylab/assets/143320920/11877ddb-62d3-4809-ba17-1140893afe19">
+Visual below provides an overview of the assault endeavors targeted at a publicly accessible Microsoft SQL server throughout a span of 24 hours. The plotted data points on the map delineate the precise origins of these attacks or attempted logins.: <br/>
+<img width="766" alt="Installing Domain" src="https://i.imgur.com/Uk94HeI.png">
 
 <p align="center">
-Creating users with Powershell <br/>
-<img width="775" alt="creating users for power shell" src="https://github.com/AndreCyberT/ActiveDirectorylab/assets/143320920/801047e0-1ae3-426a-9f4c-e6f65c1f14bf">
+The visual attack map clearly illustrates numerous syslog authentication failures faced by the Linux server I set up. It highlights unauthorized attempts to gain access from external sources outside the local network. This strongly emphasizes the importance of reinforcing Linux servers with strong authentication protocols and carefully monitoring system logs to identify and prevent potential intrusions. <br/>
+<img width="775" alt="creating users for power shell" src="https://i.imgur.com/CIZvLkQ.png">
 
 <p align="center">
-Running Users <br/>
-<img width="774" alt="Running users" src="https://github.com/AndreCyberT/ActiveDirectorylab/assets/143320920/a1cc5472-fabe-4a4a-89c1-852f66cb2963">
+The displayed attack map captures a variety of failures in RDP (Remote Desktop Protocol) and SMB (Server Message Block), vividly showcasing the persistent efforts of potential attackers to exploit these particular protocols. The visual representation emphasizes the crucial need to strengthen remote access and file-sharing services as a way to protect against unauthorized entry and mitigate potential cyber threats. <br/>
+<img width="774" alt="Running users" src="https://i.imgur.com/0xyd96w.png">
