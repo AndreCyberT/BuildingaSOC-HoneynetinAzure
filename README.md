@@ -72,3 +72,6 @@ The displayed attack map captures a variety of failures in RDP (Remote Desktop P
 <p align="center">
 The depicted attack map compellingly exhibits the consequences arising from the decision to leave the Network Security Group (NSG) unrestricted, allowing unrestricted entry of malicious network traffic. This visualization strongly underscores the importance of implementing robust security protocols, including the enforcement of strict NSG rules, to prevent unauthorized access and mitigate the inherent risks associated with potential threats. <br/>
 <img width="774" alt="Running users" src="https://i.imgur.com/gyC1HTU.png">
+
+<h2> Benchmarks Before Hardening / Security Controls </h2>
+
