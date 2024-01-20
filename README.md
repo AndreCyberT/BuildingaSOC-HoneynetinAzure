@@ -74,7 +74,8 @@ The depicted attack map compellingly exhibits the consequences arising from the 
 <img width="774" alt="Running users" src="https://i.imgur.com/gyC1HTU.png">
 
 <h2> Benchmarks Before Hardening / Security Controls </h2>
+
 The following table shows the metrics we measured in our insecure environment for 24 hours:
-Start Time: 2024-10-11T16:16:40
-Stop Time: 2024-11-11T16:16:40
+- <b>Start Time: 2024-10-11T16:16:40</b>
+- <b>Stop Time: 2024-11-11T16:16:40</b>
 
