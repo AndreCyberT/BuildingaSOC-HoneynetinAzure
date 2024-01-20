@@ -92,6 +92,12 @@ Note: All map queries actually returned no results due to no instances of malici
 
 <h2> Change after Securing Environment </h2>
 
+<img width="363" alt="Percentage metrics" src="https://github.com/AndreCyberT/BuildingaSOC-HoneynetinAzure/assets/143320920/3942388e-8107-4488-820d-98f95c0ba329">
+
+<h2> Reflection </h2>
+
+
+
 
 
 
