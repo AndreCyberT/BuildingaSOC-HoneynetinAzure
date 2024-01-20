@@ -76,6 +76,19 @@ The depicted attack map compellingly exhibits the consequences arising from the 
 <h2> Benchmarks Before Hardening / Security Controls </h2>
 
 The following table shows the metrics we measured in our insecure environment for 24 hours:
-- <b>Start Time: 2024-10-11T16:16:40</b>
-- <b>Stop Time: 2024-11-11T16:16:40</b>
+- <b>Start Time: 2024-11-12T16:16:40</b>
+- <b>Stop Time: 2024-11-13T16:16:40</b>
+<img width="361" alt="Metrics" src="https://github.com/AndreCyberT/BuildingaSOC-HoneynetinAzure/assets/143320920/0c225cf8-5e17-448d-ab12-408fbef528a9">
+
+<h2> Attack Maps After Hardening / Security Controls </h2>
+
+Note: All map queries actually returned no results due to no instances of malicious activity for the 24-hour period after hardening.
+
+<h2> Metrics After Hardening / Security Controls </h2>
+- <b>Start Time: 2024-11-13T18:20:40</b>
+- <b>Stop Time: 2024-11-14T18:20:40</b>
+
+
+
+
 
