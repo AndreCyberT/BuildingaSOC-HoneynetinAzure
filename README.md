@@ -85,6 +85,7 @@ The following table shows the metrics we measured in our insecure environment fo
 Note: All map queries actually returned no results due to no instances of malicious activity for the 24-hour period after hardening.
 
 <h2> Metrics After Hardening / Security Controls </h2>
+
 - <b>Start Time: 2024-11-13T18:20:40</b>
 - <b>Stop Time: 2024-11-14T18:20:40</b>
 <img width="357" alt="Metric 2" src="https://github.com/AndreCyberT/BuildingaSOC-HoneynetinAzure/assets/143320920/8148ef78-49d3-4708-ab1d-4fc06795654c">
