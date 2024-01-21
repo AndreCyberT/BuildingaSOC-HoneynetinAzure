@@ -96,6 +96,14 @@ Note: All map queries actually returned no results due to no instances of malici
 
 <h2> Reflection </h2>
 
+Creating this lab has been both challenging and rewarding, showcasing how real-world traffic can be analyzed using attack maps and KQL data to extract various metrics. It was gratifying to witness everything coming together and being able to portray both an insecure and secure environment. The transformation was evident as malicious traffic disappeared after implementing diverse security controls. In the phase of leaving resources vulnerable, I observed different IP addresses and usernames used by bad actors attempting to access my virtual machines. After completing the hardening process and waiting for 24 hours, it was remarkable to find that there were no results indicating any allowed traffic from the bad actors on the public internet
+
+<h2> Conclusion </h2>
+
+This project entailed establishing a mini honeynet within the Microsoft Azure platform, seamlessly integrating diverse log sources into a dedicated Log Analytics workspace. Microsoft Sentinel played a crucial role in proactively generating alerts and initiating incidents based on the ingested logs. Notably, comprehensive metrics were diligently measured in the vulnerable environment before implementing security controls, followed by a subsequent assessment after fortifying the infrastructure. The remarkable outcome was a significant reduction in the frequency of security events and incidents, undeniably affirming the efficacy of the implemented security measures.
+
+It's essential to recognize that if the network's resources were extensively utilized by regular users, a greater number of security events and alerts could potentially have been generated within the 24-hour timeframe after enforcing the security controls.
+
 
 
 
