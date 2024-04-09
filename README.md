@@ -1,7 +1,7 @@
 # BuildingaSOC-HoneynetinAzure
 
 <h2>Description</h2>
-In this project,I build a mini HoenyNet in Azure and ingest log sources from a multitude of resources into a Log Analytics workspace,which is then usec by Microsfot sentinel to build attack maps,trigger alerts,and create incidents.I measured some security metrics in the insecure enviroment for 24 hours, apply some security controls to harden the enviroment,measured metrics for another 24 hours,then show the results below.
+In this project,I build a mini HoneyNet in Azure and ingest log sources from a multitude of resources into a Log Analytics workspace,which is then usec by Microsfot sentinel to build attack maps,trigger alerts,and create incidents.I measured some security metrics in the insecure enviroment for 24 hours, apply some security controls to harden the enviroment,measured metrics for another 24 hours,then show the results below.
 
 <h2>Languages and Utilities</h2>
 
